@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: blue;
+}
+
+h2 {
+    text-align: center;
+    color:blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color:greenyellow;
+}
+
+input,
+select {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.or-divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background-color: #ccc;
+    width: 40%;
+}
+
+.or-divider::before {
+    margin-right: 20px;
+}
+
+.or-divider::after {
+    margin-left: 20px;
+}
+
+.or-text {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.login-container {
+    margin-top: 20px;
+}
